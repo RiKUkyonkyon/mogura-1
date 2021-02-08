@@ -37,6 +37,8 @@ public class Enemy {
 		}else{
 			System.out.println("整数を入力してください。");
 		}
+
+		action.close();
 		  
 	}
 	
