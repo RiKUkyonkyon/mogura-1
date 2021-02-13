@@ -7,7 +7,8 @@ public class Character {
     int defence = 10;
     public int mAttack = 0;
     public int mDefence = 0;
-    public int speed = 0;
+    int speed = 0;
+
 
     //アクセス制限
     // ＝＝＝＝＝＝＝＝名前
@@ -35,10 +36,18 @@ public class Character {
     }
 
     // ＝＝＝＝＝＝＝＝攻撃力
-    public void setAttck(int attack) {
+    public void setAttack(int attack) {
         this.attack = attack;
     }
     public int getAttack(){
         return this.attack;
+    }
+
+    // ＝＝＝＝＝＝＝＝スピード
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+    public int getSpeed(){
+        return this.speed;
     }
 }
